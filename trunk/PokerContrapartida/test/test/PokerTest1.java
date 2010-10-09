@@ -55,7 +55,7 @@ public class PokerTest1 extends TestCase {
         assertFalse(mimano.esAK());
 
         Mano mano2 = new Mano();
-        mano2.setCarta(0, new Carta(0,12));
+        mano2.setCarta(0, new Carta(0,Carta.QUEEN));
         mano2.setCarta(1, new Carta(2,Carta.JACK));
         mano2.setCarta(2, new Carta(3,10));
         mano2.setCarta(3, new Carta(2,9));
