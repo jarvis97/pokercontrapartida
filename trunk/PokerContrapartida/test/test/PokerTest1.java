@@ -36,7 +36,7 @@ public class PokerTest1 extends TestCase {
 
     public void testFullHouseVsEscalera(){
         
-        mimano.setCarta(0, new Carta(0,1));
+        mimano.setCarta(0, new Carta(0,Carta.AS));
         mimano.setCarta(1, new Carta(1,1));
         mimano.setCarta(2, new Carta(2,1));
         mimano.setCarta(3, new Carta(0,2));
@@ -73,7 +73,7 @@ public class PokerTest1 extends TestCase {
         mimano.setCarta(0, new Carta(2, 3));
         mimano.setCarta(1, new Carta(1, 5));
         mimano.setCarta(2, new Carta(1, 1));
-        mimano.setCarta(3, new Carta(3, 13));
+        mimano.setCarta(3, new Carta(3, Carta.KING));
         mimano.setCarta(4, new Carta(0, 8));
 
         System.out.println(mimano.valorMano());
