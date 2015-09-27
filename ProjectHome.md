@@ -1,0 +1,1 @@
+Simulador del juego de casino llamado "Poker de Contrapartida" o "Poker contra la Banca"
